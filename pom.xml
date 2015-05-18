@@ -3,13 +3,22 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
 	<groupId>org.test</groupId>
 	<artifactId>Testimony</artifactId>
+=======
+	<groupId>com.clutch</groupId>
+	<artifactId>testimonyApp</artifactId>
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>TestimonyProject</name>
+<<<<<<< HEAD
 	<description>Bill Testimony Project</description>
+=======
+	<description>Bill Testimony project for legislative testimonies</description>
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -28,7 +37,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+<<<<<<< HEAD
 		</dependency>
+=======
+		</dependency>		
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -45,6 +58,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
@@ -53,6 +67,8 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
+=======
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 	</dependencies>
 	
 	<build>

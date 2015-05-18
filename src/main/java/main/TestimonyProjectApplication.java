@@ -1,5 +1,6 @@
 package main;
 
+<<<<<<< HEAD
 
 import javax.sql.DataSource;
 
@@ -17,11 +18,18 @@ import profile.ProfileDAOImpl;
 @Configuration
 @ComponentScan("profile")
 @EnableAutoConfiguration
+=======
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 public class TestimonyProjectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestimonyProjectApplication.class, args);
     }
+<<<<<<< HEAD
     @Bean
 	public DataSource getDataSource(){
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -37,4 +45,6 @@ public class TestimonyProjectApplication {
 	public ProfileDAO getProfileDAO(){
 		return new ProfileDAOImpl( getDataSource() );
 	}
+=======
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 }

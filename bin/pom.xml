@@ -3,13 +3,22 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
 	<groupId>org.test</groupId>
 	<artifactId>Testimony</artifactId>
+=======
+	<groupId>com.clutch</groupId>
+	<artifactId>testimonyApp</artifactId>
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>TestimonyProject</name>
+<<<<<<< HEAD
 	<description>Bill Testimony Project</description>
+=======
+	<description>Bill Testimony project for legislative testimonies</description>
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -31,6 +40,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> 2195bbc74b4722dc92256b008e7570cdfcefaaf3
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
